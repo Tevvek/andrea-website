@@ -1,4 +1,7 @@
 import React from 'react';
+import AppBar from './components/AppBar';
+import { Router, Route } from 'react-router-dom';
+import { Switch } from '@material-ui/core';
 
 const Routes = () => (
   <Router>
